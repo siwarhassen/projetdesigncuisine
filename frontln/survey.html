@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey please</title>
+	<link rel="stylesheet" type="text/css" href="stylesurvey.css">
+	<script type="text/javascript" src="survey.js"></script>
+</head>
+<body>
+
+<form name="myForm" method="post" onsubmit="return(validateForm())"><!-- action="traitement.php" -->
+	<center><h1>Customer Survey</h1></center>
+	<div id="d1">
+	<label for="s1">1. How did you hear about Design Cuisine</label>
+	<br/>
+	<textarea name="how" id="s1"></textarea>
+	</div>
+	<div id="d2">
+	<br/>
+	<label for="s2">2. What are the top 3 things you look for in a funiture (Price, Color ,Dimensions)</label>
+	<br/>
+	<textarea name="what1" id="s2"></textarea>
+	</div>
+	<br/>
+	<div>
+	<label for="s3">3. What's your biggest frustration about buying a furniture online </label>
+	<br/>
+	<textarea name="what2" id="s3"></textarea>
+	</div>
+	<br/>
+	<div>
+	<label for="s4">4. What problems does Design Cuisine solve for you ? How could we do better ? <p>(By the way , if something's not working as it should , please <a href="contact.html">contact us</a>!)</p></label>
+	<br/>
+	<textarea name="what3" id="s4"></textarea>
+	</div>
+	<br/>
+	<div>
+	<label for="s5">5. Are in the market for yourself right now ? Or are you looking for someone else , or just browsing ?</label>
+	<br/>
+	<textarea name="are1" id="s5"></textarea>
+	</div>
+	<br/>
+	<div>
+	<label for="s6">6. Did you start your furniture search knowing what furniture you were looking for ? Do want us to help you decide (through recommendations. )</label>
+	<br/>
+	<textarea name="did1" id="6"></textarea>
+	</div>
+	<br/>
+	<div>
+	<label for="s7">7. Would you like to continue to help make Design Cuisine better ? If so , give us your email to sign up for the Design Cuisine Think Tank nenwsletter !</label>
+	<br/>
+	<input type="mail" name="yesorno" id="mail" >
+	</div>
+	<br/> 
+	
+	<center><input type="submit" name="ok" id="sub" value="Submit"></center>
+</form>
+
+
+</body>
+</html>

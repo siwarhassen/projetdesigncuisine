@@ -1,0 +1,345 @@
+/****debut page s'inscrire*****/
+
+.form-style-5{
+  max-width: 500px;
+  padding: 10px 20px;
+  background: #bcba58;
+  margin: 10px auto;
+  padding: 20px;
+  background: #bcba58;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+  border: none;
+}
+.form-style-5 legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.form-style-5 label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="password"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(255,255,255,.1);
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  background-color: #e8eeef;
+  color:#bcba58;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+  background: #d2d9dd;
+}
+.form-style-5 select{
+  -webkit-appearance: menulist-button;
+  height:35px;
+}
+.form-style-5 .number {
+  background: #ffffff;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+  position: relative;
+  display: block;
+  padding: 19px 39px 18px 39px;
+  color: #bcba58;
+  margin: 0 auto;
+  background: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+  background: #414018;
+}
+
+
+
+
+.form-style-7{
+  max-width: 700px;
+  padding: 10px 20px;
+  background: #bcba58;
+  margin: 10px auto;
+  padding: 20px;
+  background: #bcba58;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-7 fieldset{
+  border: none;
+}
+.form-style-7 legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.form-style-7 label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-style-7 input[type="text"],
+.form-style-7 input[type="password"],
+.form-style-7 input[type="date"],
+.form-style-7 input[type="datetime"],
+.form-style-7 input[type="email"],
+.form-style-7 input[type="number"],
+.form-style-7 input[type="search"],
+.form-style-7 input[type="time"],
+.form-style-7 input[type="url"],
+.form-style-7 textarea,
+.form-style-7 select {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(255,255,255,.1);
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  background-color: #e8eeef;
+  color:#080808;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+.form-style-7 input[type="text"]:focus,
+.form-style-7 input[type="password"]:focus,
+.form-style-7 input[type="date"]:focus,
+.form-style-7 input[type="datetime"]:focus,
+.form-style-7 input[type="email"]:focus,
+.form-style-7 input[type="number"]:focus,
+.form-style-7 input[type="search"]:focus,
+.form-style-7 input[type="time"]:focus,
+.form-style-7 input[type="url"]:focus,
+.form-style-7 textarea:focus,
+.form-style-7 select:focus{
+
+  background: #d2d9dd;
+}
+
+.form-style-7 select{
+  -webkit-appearance: menulist-button;
+  height:35px;
+}
+.form-style-7 .number {
+  background: #ffffff;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-7 input[type="submit"],
+.form-style-7 input[type="button"]
+{
+  position: relative;
+  display: block;
+  padding: 19px 39px 18px 39px;
+  color: #bcba58;
+  margin: 0 auto;
+  background: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+}
+.form-style-7 input[type="submit"]:hover,
+.form-style-7 input[type="button"]:hover
+{
+  background: #414018;
+}
+
+/****debut page s'inscrire*****/
+
+/***debut modifier page client*****/
+
+
+
+.form-style-10{
+  width:500px;
+  padding:30px;
+  margin:40px auto;
+  background: #FFF;
+  border-radius: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.form-style-10 .inner-wrap{
+  padding: 30px;
+  background: #F8F8F8;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.form-style-10 h1{
+  background: #bcba58;
+  padding: 20px 30px 15px 30px;
+  margin: -30px -30px 30px -30px;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  font: normal 30px 'Bitter', serif;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  
+}
+.form-style-10 h1 > span{
+  display: block;
+  margin-top: 2px;
+  font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-10 label{
+  display: block;
+  font: 13px Arial, Helvetica, sans-serif;
+  color: #888;
+  margin-bottom: 15px;
+}
+.form-style-10 input[type="text"],
+.form-style-10 input[type="date"],
+.form-style-10 input[type="datetime"],
+.form-style-10 input[type="email"],
+.form-style-10 input[type="number"],
+.form-style-10 input[type="search"],
+.form-style-10 input[type="time"],
+.form-style-10 input[type="url"],
+.form-style-10 input[type="password"],
+.form-style-10 textarea,
+.form-style-10 select {
+  display: block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border: 2px solid #fff;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.form-style-10 .section {
+  font: normal 20px 'Bitter', serif;
+  color: #2A88AD;
+  margin-bottom: 5px;
+}
+.form-style-10 .section span {
+  background: #bcba58;
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 4px solid #fff;
+  font-size: 14px;
+  margin-left: -45px;
+  color: #fff;
+  margin-top: -3px;
+}
+.form-style-10 input[type="button"], 
+.form-style-10 input[type="submit"]{
+  background: #bcba58;
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  font: normal 30px 'Bitter', serif;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+
+  font-size: 15px;
+}
+.form-style-10 input[type="button"]:hover, 
+.form-style-10 input[type="submit"]:hover{
+  background: #2A6881;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+.form-style-10 .privacy-policy{
+  float: right;
+  width: 250px;
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #4D4D4D;
+  margin-top: 10px;
+  text-align: right;
+}
+
+
+
+
+
+/***fin modifier page client*****/

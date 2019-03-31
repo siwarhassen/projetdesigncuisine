@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+  <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+  <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Top Header Area Start -->
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-5">
+                        <div class="top-header-content">
+                            <p>bienvenue</p>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="top-header-content text-right">
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Sat: 8.00 to 17.00 <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> Call us: (+12)-345-6789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Header Area End -->
+
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="akameNav">
+
+                        <!-- Logo -->
+                        <a class="nav-brand" href="index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li class="active"><a href="./index.html">Home</a></li>
+                                    <li><a href="#">Produits</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./index.html">- cuisine</a></li>
+                                            <li><a href="./about.html">- dressing</a></li>
+                                            <li><a href="./service.html">- chambre enfant</a></li>
+                                            
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href="./portfolio.html">presentation</a></li>
+                                    <li><a href="./service.html">catalogue</a></li>
+                                   
+                                </ul>
+
+                                <!-- Search Icon -->
+                <div id="searchIcon">
+                  <i class="icon_search" aria-hidden="true"></i>
+                </div>
+                <!-- Cart Icon -->
+                <div id="cartIcon">
+                  <a href="#">
+                    <i class="icon_cart_alt" aria-hidden="true"></i>
+                    <span class="cart-quantity">2</span>
+                  </a>
+                </div>
+              </div>
+              <!-- Navbar End -->
+            </div>
+          </nav>
+
+          <!-- Search Form -->
+          <div class="search-form">
+            <form action="#" method="get">
+              <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
+              <button type="submit" class="d-none"></button>
+            </form>
+            <!-- Close Icon -->
+            <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
+          </div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+<!--espace admin-->
+<h2 class="espaceadmin">Espace Admin</h2>
+<input type="email" name="email" placeholder="E-mail" class="emailadmin"><br>
+<input type="password" name="" placeholder="mot de passe" class="mpadmin"><br>
+<input type="submit" name="" value="connecter">
+<!--espace admin-->
+	
+<!--debut creation compte client-->
+	 <h2 class="creercompte">Espace client</h2>
+	<form class="inscription" action="../views/ajouterclient.php" method="POST">
+	<div id="message" class="champs">
+		Tous les champs sont obligatoires
+	</div><br>
+	<input type="text" name="nom" id="nom" placeholder="votre nom" ><input type="text" name="prenom" id="prenom" placeholder="votre prenom" class="prenominscri" required="required"><br><br>
+	
+	<input type="text" name="cin" id="cin" placeholder="votre cin" pattern="(.){8,8}" maxlength="8" required="required" ><input type="email" name="email" id="email" placeholder="votre email" class="emailinscri"  data-error="Bruh, that email address is invalid"  required="required" ><br><br>
+	
+	
+		<label class="mpinscri1">votre mot de passe</label><span></span><label class="mpinscri2">confirmer votre mot de passe</label><br>
+	<input type="password" name="mdp" id="mdp" class="mpinscri" required="required" data-minlength="6">
+			<input type="password" name="mdp" id="mdp2" class="mpinscri3" required="required" data-minlength="6"><br><br>
+
+
+
+	<select id="categorie" name="categorie" class="categorieinscri" id="categorie" onchange="javascript:if(this.value>0){b_categorie=true} else{b_categorie=false;}">
+		<option value="0">Catégorie</option>
+		<option value="1">client normal</option>
+		<option value="2">hotel</option>
+		<option value="3">societe</option >
+
+	</select >
+
+	<select id="ville" name="ville" class="ville" id="ville" onchange="javascript:if(this.value>0){b_ville=true} else{b_ville=false;}"> 
+		<option value="0">ville</option>
+		<option value ="1">Bizerte</option>
+		<option value="2">Ariana</option>
+		<option value="3">Sousse</option>
+		<option value="4">Monastir</option>
+		<option value="5">Sfax</option>
+		<option value="6">Mahdia</option>
+		<option value="7">kairouan</option>
+		<option value="8">Gabes</option>
+		<option value="9">Gafsa</option>
+		<option value="10">Ben Arous</option>
+		<option value="11">Kasserine</option>
+		<option value="12">Médenine</option>
+		<option value="13">Nabeul</option>
+		<option value="14">Tataouine</option>
+		<option value="15">Beja</option>
+		<option value="16">Le Kef</option>
+		<option value="17">Sidi Bouzid</option>
+		<option value="18">Jendouba</option>
+		<option value="19">Tozeur</option>
+		<option value="20">La Manouba</option>
+		<option value="21">Sliana</option>
+		<option value="22">Zaghouan</option>
+		<option value="23">Kébili</option>
+		<option value="24">Tunis</option>
+	</select><br><br>
+
+	<input type="adresse" name="adresse" id="adresse" class="adresseinscri" placeholder="adresse" required="required" >
+
+<input type="text" name="telephone" id="telephone" placeholder="telephone" class="telephoneinscri" pattern="(.){8,8}" maxlength="8" required="required"><br><br>
+<input type="checkbox" name="je suis ok" id="case" required="required" >
+<label> j'accepte les condtitions</label ><br>
+
+<span id="erreur" style="color: red;"></span><br>
+<input type="submit" name="" value="confirmer" id="confirmer"  onclick="envoyer()">
+
+
+
+</form>
+
+
+
+
+
+
+
+<script src="compte.js">
+   
+
+    </script>
+
+
+<!--fin creation compte client-->
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/akame.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+</body>
+</html>
